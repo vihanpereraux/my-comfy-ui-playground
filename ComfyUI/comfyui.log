@@ -1,0 +1,44 @@
+** ComfyUI startup time: 2024-03-19 17:52:53.790478
+[2024-03-19 17:52] ** Platform: Darwin
+[2024-03-19 17:52] ** Python version: 3.12.2 (main, Feb  6 2024, 20:19:44) [Clang 15.0.0 (clang-1500.1.0.2.5)]
+[2024-03-19 17:52] ** Python executable: /opt/homebrew/opt/python@3.12/bin/python3.12
+[2024-03-19 17:52] ** Log path: /Volumes/Transcend/DEV/comfy-ui-installation/ComfyUI/comfyui.log
+[2024-03-19 17:52] 
+Prestartup times for custom nodes:
+[2024-03-19 17:52]    0.0 seconds: /Volumes/Transcend/DEV/comfy-ui-installation/ComfyUI/custom_nodes/ComfyUI-Manager
+[2024-03-19 17:52] 
+Total VRAM 8192 MB, total RAM 8192 MB
+[2024-03-19 17:52] Set vram state to: SHARED
+[2024-03-19 17:52] Device: mps
+[2024-03-19 17:52] VAE dtype: torch.float32
+[2024-03-19 17:52] Using sub quadratic optimization for cross attention, if you have memory or speed issues try using: --use-split-cross-attention
+[2024-03-19 17:52] ### Loading: ComfyUI-Manager (V2.10.2)
+[2024-03-19 17:52] ### ComfyUI Revision: UNKNOWN (The currently installed ComfyUI is not a Git repository)
+[2024-03-19 17:52] 
+Import times for custom nodes:
+[2024-03-19 17:52]    0.0 seconds: /Volumes/Transcend/DEV/comfy-ui-installation/ComfyUI/custom_nodes/ComfyUI-Manager
+[2024-03-19 17:52] 
+[2024-03-19 17:52] Starting server
+
+[2024-03-19 17:52] To see the GUI go to: http://127.0.0.1:8188
+[2024-03-19 17:52] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
+[2024-03-19 17:52] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
+[2024-03-19 17:52] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
+[2024-03-19 17:52] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
+[2024-03-19 17:53] FETCH DATA from: /Volumes/Transcend/DEV/comfy-ui-installation/ComfyUI/custom_nodes/ComfyUI-Manager/extension-node-map.json
+[2024-03-19 17:53] Update ComfyUI
+[2024-03-19 17:53] ComfyUI update fail: The installed ComfyUI does not have a Git repository.
+[2024-03-19 17:53] Update ComfyUI
+[2024-03-19 17:53] ComfyUI update fail: The installed ComfyUI does not have a Git repository.
+[2024-03-19 17:53] ComfyUI update fail: The installed ComfyUI does not have a Git repository.
+[2024-03-19 17:55] FETCH DATA from: /Volumes/Transcend/DEV/comfy-ui-installation/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/4245046894_model-list.json
+[2024-03-19 18:00] Update ComfyUI
+[2024-03-19 18:00] ComfyUI update fail: The installed ComfyUI does not have a Git repository.
+[2024-03-19 18:00] FETCH DATA from: /Volumes/Transcend/DEV/comfy-ui-installation/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/1514988643_custom-node-list.json
+[2024-03-19 18:00] Start fetching...[2KFetching: /Volumes/Transcend/DEV/comfy-ui-installation/ComfyUI/custom_nodes/ComfyUI-Manager[2KFetching done.
+[2024-03-19 18:06] Update ComfyUI
+[2024-03-19 18:06] ComfyUI update fail: The installed ComfyUI does not have a Git repository.
+[2024-03-19 18:06] ComfyUI update fail: The installed ComfyUI does not have a Git repository.
+[2024-03-19 18:06] Update ComfyUI
+[2024-03-19 18:06] ComfyUI update fail: The installed ComfyUI does not have a Git repository.
+[2024-03-19 18:09] FETCH DATA from: /Volumes/Transcend/DEV/comfy-ui-installation/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/4245046894_model-list.json

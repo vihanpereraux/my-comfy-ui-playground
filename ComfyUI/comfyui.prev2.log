@@ -1,0 +1,72 @@
+** ComfyUI startup time: 2024-03-19 17:47:18.901224
+[2024-03-19 17:47] ** Platform: Darwin
+[2024-03-19 17:47] ** Python version: 3.12.2 (main, Feb  6 2024, 20:19:44) [Clang 15.0.0 (clang-1500.1.0.2.5)]
+[2024-03-19 17:47] ** Python executable: /opt/homebrew/opt/python@3.12/bin/python3.12
+[2024-03-19 17:47] ** Log path: /Volumes/Transcend/DEV/comfy-ui-installation/ComfyUI/comfyui.log
+[2024-03-19 17:47] 
+Prestartup times for custom nodes:
+[2024-03-19 17:47]    0.0 seconds: /Volumes/Transcend/DEV/comfy-ui-installation/ComfyUI/custom_nodes/ComfyUI-Manager
+[2024-03-19 17:47] 
+Total VRAM 8192 MB, total RAM 8192 MB
+[2024-03-19 17:47] Set vram state to: SHARED
+[2024-03-19 17:47] Device: mps
+[2024-03-19 17:47] VAE dtype: torch.float32
+[2024-03-19 17:47] Using sub quadratic optimization for cross attention, if you have memory or speed issues try using: --use-split-cross-attention
+[2024-03-19 17:47] ### Loading: ComfyUI-Manager (V2.10.2)
+[2024-03-19 17:47] ## ComfyUI-Manager: installing dependencies
+[2024-03-19 17:47] [!] error: externally-managed-environment
+[2024-03-19 17:47] [!] 
+[2024-03-19 17:47] [!] × This environment is externally managed
+[2024-03-19 17:47] [!] ╰─> To install Python packages system-wide, try brew install
+[2024-03-19 17:47] [!]     xyz, where xyz is the package you are trying to
+[2024-03-19 17:47] [!]     install.
+[2024-03-19 17:47] [!]     
+[2024-03-19 17:47] [!]     If you wish to install a non-brew-packaged Python package,
+[2024-03-19 17:47] [!]     create a virtual environment using python3 -m venv path/to/venv.
+[2024-03-19 17:47] [!]     Then use path/to/venv/bin/python and path/to/venv/bin/pip.
+[2024-03-19 17:47] [!]     
+[2024-03-19 17:47] [!]     If you wish to install a non-brew packaged Python application,
+[2024-03-19 17:47] [!]     it may be easiest to use pipx install xyz, which will manage a
+[2024-03-19 17:47] [!]     virtual environment for you. Make sure you have pipx installed.
+[2024-03-19 17:47] [!] 
+[2024-03-19 17:47] [!] note: If you believe this is a mistake, please contact your Python installation or OS distribution provider. You can override this, at the risk of breaking your Python installation or OS, by passing --break-system-packages.
+[2024-03-19 17:47] [!] hint: See PEP 668 for the detailed specification.
+[2024-03-19 17:47] [2024-03-19 17:47] ## [ERROR] ComfyUI-Manager: Attempting to reinstall dependencies using an alternative method.
+[!] error: externally-managed-environment
+[2024-03-19 17:47] [!] 
+[2024-03-19 17:47] [!] × This environment is externally managed
+[2024-03-19 17:47] [!] ╰─> To install Python packages system-wide, try brew install
+[2024-03-19 17:47] [!]     xyz, where xyz is the package you are trying to
+[2024-03-19 17:47] [!]     install.
+[2024-03-19 17:47] [!]     
+[2024-03-19 17:47] [!]     If you wish to install a non-brew-packaged Python package,
+[2024-03-19 17:47] [!]     create a virtual environment using python3 -m venv path/to/venv.
+[2024-03-19 17:47] [!]     Then use path/to/venv/bin/python and path/to/venv/bin/pip.
+[2024-03-19 17:47] [!]     
+[2024-03-19 17:47] [!]     If you wish to install a non-brew packaged Python application,
+[2024-03-19 17:47] [!]     it may be easiest to use pipx install xyz, which will manage a
+[2024-03-19 17:47] [!]     virtual environment for you. Make sure you have pipx installed.
+[2024-03-19 17:47] [!] 
+[2024-03-19 17:47] [!] note: If you believe this is a mistake, please contact your Python installation or OS distribution provider. You can override this, at the risk of breaking your Python installation or OS, by passing --break-system-packages.
+[2024-03-19 17:47] [!] hint: See PEP 668 for the detailed specification.
+[2024-03-19 17:47] [2024-03-19 17:47] ## [ERROR] ComfyUI-Manager: Failed to install the GitPython package in the correct Python environment. Please install it manually in the appropriate environment. (You can seek help at https://app.element.io/#/room/%23comfyui_space%3Amatrix.org)
+[2024-03-19 17:47] ## ComfyUI-Manager: installing dependencies done.
+Traceback (most recent call last):
+  File "/Volumes/Transcend/DEV/comfy-ui-installation/ComfyUI/nodes.py", line 1888, in load_custom_node
+    module_spec.loader.exec_module(module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Volumes/Transcend/DEV/comfy-ui-installation/ComfyUI/custom_nodes/ComfyUI-Manager/__init__.py", line 116, in <module>
+    from git.remote import RemoteProgress
+ModuleNotFoundError: No module named 'git'
+
+[2024-03-19 17:47] Cannot import /Volumes/Transcend/DEV/comfy-ui-installation/ComfyUI/custom_nodes/ComfyUI-Manager module for custom nodes: No module named 'git'
+[2024-03-19 17:47] 
+Import times for custom nodes:
+[2024-03-19 17:47]    0.8 seconds (IMPORT FAILED): /Volumes/Transcend/DEV/comfy-ui-installation/ComfyUI/custom_nodes/ComfyUI-Manager
+[2024-03-19 17:47] 
+[2024-03-19 17:47] Starting server
+
+[2024-03-19 17:47] To see the GUI go to: http://127.0.0.1:8188
+[2024-03-19 17:49] 
+Stopped server

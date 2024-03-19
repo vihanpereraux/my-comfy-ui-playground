@@ -6,7 +6,7 @@ __pycache__/
 !/input/example.png
 /models/
 /temp/
-/custom_nodes/
+# /custom_nodes/
 !custom_nodes/example_node.py.example
 extra_model_paths.yaml
 /.vs
@@ -17,3 +17,17 @@ venv/
 !/web/extensions/core/
 /tests-ui/data/object_info.json
 /user/
+
+__pycache__/
+.idea/
+.vscode/
+.tmp
+.cache
+config.ini
+snapshots/**
+startup-scripts/**
+.openart_key
+.youml
+matrix_auth
+channels.list
+comfyworkflows_sharekey
